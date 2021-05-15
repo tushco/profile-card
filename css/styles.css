@@ -1,0 +1,99 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
+}
+
+h1{
+  margin-top:80px;
+  font-size: 18px;
+}
+
+p{
+  color:hsl(0, 0%, 59%);
+}
+hr{
+  border-top: solid;
+  border-width: thin;
+  border-color: hsl(0, 0%, 89%);
+}
+.img-top, .img-bottom{
+  height:800px;
+}
+.img-bottom{
+
+}
+.div-top{
+  position:absolute;
+  bottom:50%;
+  right:48%;
+}
+.div-bottom{
+  position:absolute;
+  top:50%;
+  left:48%;
+
+
+}
+.heading-age, .heading-town{
+  color:hsl(0, 0%, 59%);
+}
+.heading-age, .name-heading{
+  display: inline;
+}
+.name-heading{
+  margin-right: 5px;
+}
+
+.card{
+  margin:200px auto;
+  width: 25%;
+  text-align: center;
+  background-color: white;
+  position:relative;
+  border-radius: 20px;
+  z-index: 4;
+}
+.divider{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.bottom-container{
+  padding-top: 50px;
+}
+
+.img-profile{
+  border-radius: 100%;
+  position: absolute;
+  top:20%;
+  left:35%;
+  border:solid;
+  border-width: medium;
+  border-color: white;
+
+}
+
+.pattern{
+  width:100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.column-paragraph{
+  margin-top:0;
+  font-size: 14px;
+}
+.town-container{
+  font-size: 14px;
+}
+.column-heading{
+  margin-bottom:0;
+
+}
+@media screen and (max-width: 1219px){
+  .card{
+    width:90%;
+  }
+}
